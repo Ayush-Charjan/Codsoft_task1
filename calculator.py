@@ -54,7 +54,7 @@ button_10 = tk.Button(root, text = "2", command =lambda: add_calculate(2), width
 button_10.grid(row=4, column=2)
 button_11 = tk.Button(root, text = "3", command =lambda: add_calculate(3), width = 5, font = ("Arial",14))
 button_11.grid(row=4, column=3)
-button_12 = tk.Button(root, text = "", command =lambda: add_calculate(''), width = 5, font = ("Arial",14))
+button_12 = tk.Button(root, text = "*", command =lambda: add_calculate(''), width = 5, font = ("Arial",14))
 button_12.grid(row=4, column=4)
 button_13 = tk.Button(root, text = "(", command =lambda: add_calculate('('), width = 5, font = ("Arial",14))
 button_13.grid(row=5, column=1)
